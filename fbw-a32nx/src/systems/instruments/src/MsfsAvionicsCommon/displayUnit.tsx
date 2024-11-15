@@ -177,6 +177,9 @@ export class DisplayUnit extends DisplayComponent<DisplayUnitProps> {
           <text class="SelfTestText" x="50%" y="56%">
             (MAX 40 SECONDS)
           </text>
+          <text class="SelfTestText" x="50%" y="62%">
+            HELLO MARC
+          </text>
         </svg>
 
         <svg style="display:none" ref={this.maintenanceModeRef} class="MaintenanceMode" viewBox="0 0 600 600">
